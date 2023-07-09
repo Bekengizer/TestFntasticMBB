@@ -41,6 +41,10 @@ int main()
 					counter = 0;
 					break;
 				}
+				if (newStr[i] != REPEAT)
+				{
+					newStr[i] = NOTREPEAT;
+				}
 
 			}
 			
@@ -48,16 +52,7 @@ int main()
 		counter = 0;
 
 	}
-	for (int i = 0; i <= origin.length()-1; i++)
-	{
-		
-		if (newStr[i] != REPEAT)
-		{
-			newStr[i] = NOTREPEAT;
-		}
-		
-		
-	}
+
 	cout << newStr;
 	return 0;
 }
