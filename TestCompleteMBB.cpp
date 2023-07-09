@@ -41,9 +41,9 @@ int main()
 					counter = 0;
 					break;
 				}
-				if (newStr[i] != REPEAT)
+				if (newStr[k] != REPEAT)
 				{
-					newStr[i] = NOTREPEAT;
+					newStr[k] = NOTREPEAT;
 				}
 
 			}
